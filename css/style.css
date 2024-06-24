@@ -11,7 +11,7 @@ https://www.tooplate.com/view/2137-barista-cafe
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #1635c080;
+  --primary-color:                #002fff;
   --secondary-color:              #00f87c;
   --section-bg-color:             #52b780;
   --custom-btn-bg-color:          #48bc25;
@@ -45,7 +45,7 @@ https://www.tooplate.com/view/2137-barista-cafe
 }
 
 body {
-  background-color: var(--white-color);
+  background-color: var(--dark-color);
   font-family: var(--body-font-family); 
 }
 
@@ -138,7 +138,7 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
+  background-color: var(--dark-color);
   background-image: url('../img/panel.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -607,7 +607,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color);
   background-image: url('../img/panel.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -647,7 +647,7 @@ strong {
 }
 
 .about-section h6 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .team-block-wrap {
@@ -697,7 +697,7 @@ strong {
   HOBBiES              
 -----------------------------------------*/
 .menu-section {
-  background-image: url('../img/panel.jpg');
+ 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -757,6 +757,7 @@ strong {
   SKILL & HOBBIES           
 -----------------------------------------*/
 .contact-section {
+  background-color: var(--primary-color);
   background-image: url('../img/panel.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -794,7 +795,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-color: var(--primary-color);
+  background-color: var(--dark-color);
   background-image: url('../img/panel.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -845,15 +846,13 @@ strong {
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
-.site-footer {
-  background-color: var(--primary-color);
+.site-footer { 
+  background-color: var(--dark-color);
   background-image: url('../img/panel.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .site-footer strong {
