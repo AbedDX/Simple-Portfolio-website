@@ -795,12 +795,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-color: var(--dark-color);
-  background-image: url('../img/panel.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  
 }
 
 
